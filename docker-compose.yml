@@ -1,0 +1,6 @@
+bot:
+  # build: .
+  image: marcosfparreiras/telegram-bot-ruby-env
+  volumes:
+    - .:/app   
+  command: /bin/bash
